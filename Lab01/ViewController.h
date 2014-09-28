@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 extern int x;
+extern int bk;
 
 @interface ViewController : UIViewController
 

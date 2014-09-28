@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #define myColors [NSArray arrayWithObjects: [UIColor redColor], [UIColor greenColor], [UIColor blueColor], [UIColor yellowColor], [UIColor purpleColor], nil]
+#define myColors2 [NSArray arrayWithObjects: [UIColor redColor], [UIColor greenColor], [UIColor blueColor], [UIColor blackColor], [UIColor purpleColor], nil]
 
 @interface ViewController ()
 
@@ -15,6 +16,7 @@
 
 @implementation ViewController
  int  x= 0;
+int bk = 3;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -34,6 +36,11 @@
 }
 
 - (IBAction)EvtBk:(id)sender {
+    bk--;
+    self.lblName.backgroundColor = [myColors2 objectAtIndex:bk];
+    if (bk==0) {
+        bk = 4;
+    }
 }
 
 - (IBAction)EvtImg:(id)sender {

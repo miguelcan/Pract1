@@ -482,6 +482,7 @@
 				279CFD7719D7E88F0060E460 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		279CFD7819D7E88F0060E460 /* Build configuration list for PBXNativeTarget "Lab01Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +491,7 @@
 				279CFD7A19D7E88F0060E460 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

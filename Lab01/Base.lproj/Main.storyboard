@@ -88,6 +88,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lotte Hofmeester" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sx2-VS-YdB">
                                 <rect key="frame" x="66" y="40" width="231" height="33"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="d9i-eI-w6C"/>
                                 </constraints>
@@ -97,7 +98,7 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                        <color key="tintColor" patternImage="BC9FC898-8387-4E44-9BD0-08FED4661752" colorSpace="pattern"/>
+                        <color key="tintColor" patternImage="221E0499-B93D-4858-9B5A-6F0B9FB1ECBB" colorSpace="pattern"/>
                         <constraints>
                             <constraint firstItem="mDs-ka-qVP" firstAttribute="leading" secondItem="zFC-Ho-6MX" secondAttribute="leading" id="7gc-vz-A6o"/>
                             <constraint firstItem="mDs-ka-qVP" firstAttribute="trailing" secondItem="zFC-Ho-6MX" secondAttribute="trailing" id="81x-eb-Bhv"/>
@@ -135,7 +136,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="BC9FC898-8387-4E44-9BD0-08FED4661752" width="256" height="256">
+        <image name="221E0499-B93D-4858-9B5A-6F0B9FB1ECBB" width="256" height="256">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGTk9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QEQcI
 ExQZHh8nKzIzNDw/QkhLVSRudWxs1QkKCwwNDg8QERJWTlNTaXplViRjbGFzc1xOU0ltYWdlRmxhZ3NW
