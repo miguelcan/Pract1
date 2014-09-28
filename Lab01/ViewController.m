@@ -9,14 +9,18 @@
 #import "ViewController.h"
 #define myColors [NSArray arrayWithObjects: [UIColor redColor], [UIColor greenColor], [UIColor blueColor], [UIColor yellowColor], [UIColor purpleColor], nil]
 #define myColors2 [NSArray arrayWithObjects: [UIColor redColor], [UIColor greenColor], [UIColor blueColor], [UIColor blackColor], [UIColor purpleColor], nil]
+#define imgs [NSArray arrayWithObjects: @"age0.jpg", @"age1.jpg", @"age2.jpg", @"age3.jpg", @"age4.jpg", @"age5.jpg", @"age6.jpg", @"age7.jpg", @"age8.jpg", @"age9.jpg", @"age10.jpg", @"age11.jpg", @"age12.jpg", @"age13.jpg",@"age14.jpg",nil]
 
+#define ts [NSArray arrayWithObjects:@"age3.jpg",nil]
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
  int  x= 0;
-int bk = 3;
+ int bk = 3;
+ int im = 1;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -44,6 +48,12 @@ int bk = 3;
 }
 
 - (IBAction)EvtImg:(id)sender {
+    if (im==15) {
+        im = 0;
+    }
+    self.LblAge.text = [NSString stringWithFormat:@"%d",im];
+    self.ImgFace.image =[UIImage imageNamed:[imgs objectAtIndex:im]];
+    im++;
 }
 
 - (IBAction)EvtNxt:(id)sender {
