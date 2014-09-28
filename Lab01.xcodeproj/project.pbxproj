@@ -14,6 +14,21 @@
 		279CFD6319D7E88F0060E460 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279CFD6219D7E88F0060E460 /* Images.xcassets */; };
 		279CFD6619D7E88F0060E460 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 279CFD6419D7E88F0060E460 /* LaunchScreen.xib */; };
 		279CFD7219D7E88F0060E460 /* Lab01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 279CFD7119D7E88F0060E460 /* Lab01Tests.m */; };
+		279CFDA919D7F6750060E460 /* age0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 279CFD9A19D7F6750060E460 /* age0.jpg */; };
+		279CFDAA19D7F6750060E460 /* age1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 279CFD9B19D7F6750060E460 /* age1.jpg */; };
+		279CFDAB19D7F6750060E460 /* age2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 279CFD9C19D7F6750060E460 /* age2.jpg */; };
+		279CFDAC19D7F6750060E460 /* age3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 279CFD9D19D7F6750060E460 /* age3.jpg */; };
+		279CFDAD19D7F6750060E460 /* age4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 279CFD9E19D7F6750060E460 /* age4.jpg */; };
+		279CFDAE19D7F6750060E460 /* age5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 279CFD9F19D7F6750060E460 /* age5.jpg */; };
+		279CFDAF19D7F6750060E460 /* age6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 279CFDA019D7F6750060E460 /* age6.jpg */; };
+		279CFDB019D7F6750060E460 /* age7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 279CFDA119D7F6750060E460 /* age7.jpg */; };
+		279CFDB119D7F6750060E460 /* age8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 279CFDA219D7F6750060E460 /* age8.jpg */; };
+		279CFDB219D7F6750060E460 /* age9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 279CFDA319D7F6750060E460 /* age9.jpg */; };
+		279CFDB319D7F6750060E460 /* age10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 279CFDA419D7F6750060E460 /* age10.jpg */; };
+		279CFDB419D7F6750060E460 /* age11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 279CFDA519D7F6750060E460 /* age11.jpg */; };
+		279CFDB519D7F6750060E460 /* age12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 279CFDA619D7F6750060E460 /* age12.jpg */; };
+		279CFDB619D7F6750060E460 /* age13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 279CFDA719D7F6750060E460 /* age13.jpg */; };
+		279CFDB719D7F6750060E460 /* age14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 279CFDA819D7F6750060E460 /* age14.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +55,21 @@
 		279CFD6B19D7E88F0060E460 /* Lab01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		279CFD7019D7E88F0060E460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		279CFD7119D7E88F0060E460 /* Lab01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab01Tests.m; sourceTree = "<group>"; };
+		279CFD9A19D7F6750060E460 /* age0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = age0.jpg; path = "../../../Downloads/lotte-2/age0.jpg"; sourceTree = "<group>"; };
+		279CFD9B19D7F6750060E460 /* age1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = age1.jpg; path = "../../../Downloads/lotte-2/age1.jpg"; sourceTree = "<group>"; };
+		279CFD9C19D7F6750060E460 /* age2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = age2.jpg; path = "../../../Downloads/lotte-2/age2.jpg"; sourceTree = "<group>"; };
+		279CFD9D19D7F6750060E460 /* age3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = age3.jpg; path = "../../../Downloads/lotte-2/age3.jpg"; sourceTree = "<group>"; };
+		279CFD9E19D7F6750060E460 /* age4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = age4.jpg; path = "../../../Downloads/lotte-2/age4.jpg"; sourceTree = "<group>"; };
+		279CFD9F19D7F6750060E460 /* age5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = age5.jpg; path = "../../../Downloads/lotte-2/age5.jpg"; sourceTree = "<group>"; };
+		279CFDA019D7F6750060E460 /* age6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = age6.jpg; path = "../../../Downloads/lotte-2/age6.jpg"; sourceTree = "<group>"; };
+		279CFDA119D7F6750060E460 /* age7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = age7.jpg; path = "../../../Downloads/lotte-2/age7.jpg"; sourceTree = "<group>"; };
+		279CFDA219D7F6750060E460 /* age8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = age8.jpg; path = "../../../Downloads/lotte-2/age8.jpg"; sourceTree = "<group>"; };
+		279CFDA319D7F6750060E460 /* age9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = age9.jpg; path = "../../../Downloads/lotte-2/age9.jpg"; sourceTree = "<group>"; };
+		279CFDA419D7F6750060E460 /* age10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = age10.jpg; path = "../../../Downloads/lotte-2/age10.jpg"; sourceTree = "<group>"; };
+		279CFDA519D7F6750060E460 /* age11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = age11.jpg; path = "../../../Downloads/lotte-2/age11.jpg"; sourceTree = "<group>"; };
+		279CFDA619D7F6750060E460 /* age12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = age12.jpg; path = "../../../Downloads/lotte-2/age12.jpg"; sourceTree = "<group>"; };
+		279CFDA719D7F6750060E460 /* age13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = age13.jpg; path = "../../../Downloads/lotte-2/age13.jpg"; sourceTree = "<group>"; };
+		279CFDA819D7F6750060E460 /* age14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = age14.jpg; path = "../../../Downloads/lotte-2/age14.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +126,7 @@
 		279CFD5519D7E88F0060E460 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				279CFD7B19D7F3A40060E460 /* img */,
 				279CFD5619D7E88F0060E460 /* Info.plist */,
 				279CFD5719D7E88F0060E460 /* main.m */,
 			);
@@ -117,6 +148,28 @@
 				279CFD7019D7E88F0060E460 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		279CFD7B19D7F3A40060E460 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				279CFD9A19D7F6750060E460 /* age0.jpg */,
+				279CFD9B19D7F6750060E460 /* age1.jpg */,
+				279CFD9C19D7F6750060E460 /* age2.jpg */,
+				279CFD9D19D7F6750060E460 /* age3.jpg */,
+				279CFD9E19D7F6750060E460 /* age4.jpg */,
+				279CFD9F19D7F6750060E460 /* age5.jpg */,
+				279CFDA019D7F6750060E460 /* age6.jpg */,
+				279CFDA119D7F6750060E460 /* age7.jpg */,
+				279CFDA219D7F6750060E460 /* age8.jpg */,
+				279CFDA319D7F6750060E460 /* age9.jpg */,
+				279CFDA419D7F6750060E460 /* age10.jpg */,
+				279CFDA519D7F6750060E460 /* age11.jpg */,
+				279CFDA619D7F6750060E460 /* age12.jpg */,
+				279CFDA719D7F6750060E460 /* age13.jpg */,
+				279CFDA819D7F6750060E460 /* age14.jpg */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +252,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				279CFDB319D7F6750060E460 /* age10.jpg in Resources */,
+				279CFDB019D7F6750060E460 /* age7.jpg in Resources */,
+				279CFDB719D7F6750060E460 /* age14.jpg in Resources */,
+				279CFDAD19D7F6750060E460 /* age4.jpg in Resources */,
+				279CFDA919D7F6750060E460 /* age0.jpg in Resources */,
+				279CFDAA19D7F6750060E460 /* age1.jpg in Resources */,
+				279CFDB619D7F6750060E460 /* age13.jpg in Resources */,
+				279CFDB119D7F6750060E460 /* age8.jpg in Resources */,
 				279CFD6119D7E88F0060E460 /* Main.storyboard in Resources */,
+				279CFDAE19D7F6750060E460 /* age5.jpg in Resources */,
+				279CFDB519D7F6750060E460 /* age12.jpg in Resources */,
 				279CFD6619D7E88F0060E460 /* LaunchScreen.xib in Resources */,
+				279CFDAF19D7F6750060E460 /* age6.jpg in Resources */,
+				279CFDAC19D7F6750060E460 /* age3.jpg in Resources */,
+				279CFDAB19D7F6750060E460 /* age2.jpg in Resources */,
 				279CFD6319D7E88F0060E460 /* Images.xcassets in Resources */,
+				279CFDB219D7F6750060E460 /* age9.jpg in Resources */,
+				279CFDB419D7F6750060E460 /* age11.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
