@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+extern int x;
+
 @interface ViewController : UIViewController
 
 @property (strong, nonatomic) IBOutlet UILabel *lblName;

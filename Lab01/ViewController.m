@@ -7,13 +7,14 @@
 //
 
 #import "ViewController.h"
+#define myColors [NSArray arrayWithObjects: [UIColor redColor], [UIColor greenColor], [UIColor blueColor], [UIColor yellowColor], [UIColor purpleColor], nil]
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
-
+ int  x= 0;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -25,6 +26,11 @@
 }
 
 - (IBAction)EvtColor:(id)sender {
+    if (x==5) {
+        x = 0;
+    }
+    self.lblName.textColor = [myColors objectAtIndex:x];
+    x++;
 }
 
 - (IBAction)EvtBk:(id)sender {
