@@ -24,4 +24,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)EvtColor:(id)sender {
+}
+
+- (IBAction)EvtBk:(id)sender {
+}
+
+- (IBAction)EvtImg:(id)sender {
+}
+
+- (IBAction)EvtNxt:(id)sender {
+}
 @end
