@@ -99,7 +99,7 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                        <color key="tintColor" patternImage="52EEA63D-913A-4ED1-88C7-B40BB74316C5" colorSpace="pattern"/>
+                        <color key="tintColor" patternImage="ACBADA20-102C-44CD-8668-DB2957FE3D67" colorSpace="pattern"/>
                         <constraints>
                             <constraint firstItem="mDs-ka-qVP" firstAttribute="leading" secondItem="zFC-Ho-6MX" secondAttribute="leading" id="7gc-vz-A6o"/>
                             <constraint firstItem="mDs-ka-qVP" firstAttribute="trailing" secondItem="zFC-Ho-6MX" secondAttribute="trailing" id="81x-eb-Bhv"/>
@@ -187,10 +187,10 @@
             </objects>
             <point key="canvasLocation" x="738" y="288"/>
         </scene>
-        <!--View Controller-->
+        <!--Video-->
         <scene sceneID="Ihd-sA-Wqk">
             <objects>
-                <viewController id="k27-yi-DA3" sceneMemberID="viewController">
+                <viewController id="k27-yi-DA3" customClass="Video" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TID-oa-EoL"/>
                         <viewControllerLayoutGuide type="bottom" id="Kf3-EK-oGf"/>
@@ -219,6 +219,9 @@
                                 <state key="normal" title="Play">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="evtPlay:" destination="k27-yi-DA3" eventType="touchUpInside" id="bHm-Rt-3t9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hT5-4z-lOb">
                                 <rect key="frame" x="255" y="353" width="90" height="30"/>
@@ -237,7 +240,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="52EEA63D-913A-4ED1-88C7-B40BB74316C5" width="256" height="256">
+        <image name="ACBADA20-102C-44CD-8668-DB2957FE3D67" width="256" height="256">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGTk9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QEQcI
 ExQZHh8nKzIzNDw/QkhLVSRudWxs1QkKCwwNDg8QERJWTlNTaXplViRjbGFzc1xOU0ltYWdlRmxhZ3NW
