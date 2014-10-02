@@ -30,6 +30,7 @@
 		279CFDB619D7F6750060E460 /* age13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 279CFDA719D7F6750060E460 /* age13.jpg */; };
 		279CFDB719D7F6750060E460 /* age14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 279CFDA819D7F6750060E460 /* age14.jpg */; };
 		279D147519DDC585008067D3 /* Transp.m in Sources */ = {isa = PBXBuildFile; fileRef = 279D147419DDC585008067D3 /* Transp.m */; };
+		279D147719DDCB91008067D3 /* HDRcities20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 279D147619DDCB91008067D3 /* HDRcities20.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		279CFDA819D7F6750060E460 /* age14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = age14.jpg; path = "../../../Downloads/lotte-2/age14.jpg"; sourceTree = "<group>"; };
 		279D147319DDC585008067D3 /* Transp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transp.h; path = ../Transp.h; sourceTree = "<group>"; };
 		279D147419DDC585008067D3 /* Transp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Transp.m; path = ../Transp.m; sourceTree = "<group>"; };
+		279D147619DDCB91008067D3 /* HDRcities20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HDRcities20.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 		279CFD7B19D7F3A40060E460 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				279D147619DDCB91008067D3 /* HDRcities20.jpg */,
 				279CFD9A19D7F6750060E460 /* age0.jpg */,
 				279CFD9B19D7F6750060E460 /* age1.jpg */,
 				279CFD9C19D7F6750060E460 /* age2.jpg */,
@@ -270,6 +273,7 @@
 				279CFDB519D7F6750060E460 /* age12.jpg in Resources */,
 				279CFD6619D7E88F0060E460 /* LaunchScreen.xib in Resources */,
 				279CFDAF19D7F6750060E460 /* age6.jpg in Resources */,
+				279D147719DDCB91008067D3 /* HDRcities20.jpg in Resources */,
 				279CFDAC19D7F6750060E460 /* age3.jpg in Resources */,
 				279CFDAB19D7F6750060E460 /* age2.jpg in Resources */,
 				279CFD6319D7E88F0060E460 /* Images.xcassets in Resources */,
