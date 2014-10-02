@@ -39,13 +39,22 @@
     NSLog(@"URL IS  : %@",[url absoluteString]);
     
     moviePlayer = [[MPMoviePlayerController alloc] initWithContentURL:url];
+    
+    [self.moviePlayer.view setFrame:CGRectMake(60, 100, 290, 200)];
+    
 
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(moviePlayBackDidFinish:) name:MPMoviePlayerPlaybackDidFinishNotification object:moviePlayer];
     
     moviePlayer.controlStyle = MPMovieControlStyleDefault;
     moviePlayer.shouldAutoplay = YES;
     [self.view addSubview:moviePlayer.view];
-    [moviePlayer setFullscreen:YES animated:YES];
+    
+    MPMoviePlayerController *mp = moviePlayer;
+    CGRect playerFrame = CGRectMake(60, 100, 290, 200);
+    [mp.view setFrame:playerFrame];
+    [mp prepareToPlay];
+    //[[moviePlayer ] play];
+    //[moviePlayer setFullscreen:YES animated:YES];
 }
 
 - (void) moviePlayBackDidFinish:(NSNotification*)notification {
@@ -55,5 +64,6 @@
     if([player respondsToSelector:@selector(setFullscreen:animated:)]) {
         [player.view removeFromSuperview];
     }
+    
 }
 @end
