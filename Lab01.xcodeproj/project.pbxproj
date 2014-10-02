@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		272A037919DDDCBC00A60FCD /* Opacy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272A037819DDDCBC00A60FCD /* Opacy.m */; };
 		279CFD5819D7E88F0060E460 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 279CFD5719D7E88F0060E460 /* main.m */; };
 		279CFD5B19D7E88F0060E460 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 279CFD5A19D7E88F0060E460 /* AppDelegate.m */; };
 		279CFD5E19D7E88F0060E460 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279CFD5D19D7E88F0060E460 /* ViewController.m */; };
@@ -30,7 +31,6 @@
 		279CFDB619D7F6750060E460 /* age13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 279CFDA719D7F6750060E460 /* age13.jpg */; };
 		279CFDB719D7F6750060E460 /* age14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 279CFDA819D7F6750060E460 /* age14.jpg */; };
 		279D147719DDCB91008067D3 /* HDRcities20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 279D147619DDCB91008067D3 /* HDRcities20.jpg */; };
-		279D147A19DDCE47008067D3 /* Transp.m in Sources */ = {isa = PBXBuildFile; fileRef = 279D147919DDCE47008067D3 /* Transp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		272A037719DDDCBC00A60FCD /* Opacy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Opacy.h; sourceTree = "<group>"; };
+		272A037819DDDCBC00A60FCD /* Opacy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Opacy.m; sourceTree = "<group>"; };
 		279CFD5219D7E88F0060E460 /* Lab01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		279CFD5619D7E88F0060E460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		279CFD5719D7E88F0060E460 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -73,8 +75,6 @@
 		279CFDA719D7F6750060E460 /* age13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = age13.jpg; path = "../../../Downloads/lotte-2/age13.jpg"; sourceTree = "<group>"; };
 		279CFDA819D7F6750060E460 /* age14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = age14.jpg; path = "../../../Downloads/lotte-2/age14.jpg"; sourceTree = "<group>"; };
 		279D147619DDCB91008067D3 /* HDRcities20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HDRcities20.jpg; sourceTree = "<group>"; };
-		279D147819DDCE47008067D3 /* Transp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transp.h; sourceTree = "<group>"; };
-		279D147919DDCE47008067D3 /* Transp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transp.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,10 +119,10 @@
 				279CFD5919D7E88F0060E460 /* AppDelegate.h */,
 				279CFD5A19D7E88F0060E460 /* AppDelegate.m */,
 				279CFD5C19D7E88F0060E460 /* ViewController.h */,
+				272A037719DDDCBC00A60FCD /* Opacy.h */,
+				272A037819DDDCBC00A60FCD /* Opacy.m */,
 				279CFD5D19D7E88F0060E460 /* ViewController.m */,
 				279CFD5F19D7E88F0060E460 /* Main.storyboard */,
-				279D147819DDCE47008067D3 /* Transp.h */,
-				279D147919DDCE47008067D3 /* Transp.m */,
 				279CFD6219D7E88F0060E460 /* Images.xcassets */,
 				279CFD6419D7E88F0060E460 /* LaunchScreen.xib */,
 				279CFD5519D7E88F0060E460 /* Supporting Files */,
@@ -298,7 +298,7 @@
 			files = (
 				279CFD5E19D7E88F0060E460 /* ViewController.m in Sources */,
 				279CFD5B19D7E88F0060E460 /* AppDelegate.m in Sources */,
-				279D147A19DDCE47008067D3 /* Transp.m in Sources */,
+				272A037919DDDCBC00A60FCD /* Opacy.m in Sources */,
 				279CFD5819D7E88F0060E460 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

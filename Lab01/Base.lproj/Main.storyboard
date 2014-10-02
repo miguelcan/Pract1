@@ -94,12 +94,12 @@
                                 </state>
                                 <connections>
                                     <action selector="EvtNxt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hF8-Gg-b9N"/>
-                                    <segue destination="gEQ-bp-PE7" kind="show" id="eP1-tg-Lmv"/>
+                                    <segue destination="cAl-bm-WIy" kind="show" id="kkn-lK-39z"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                        <color key="tintColor" patternImage="2782BC7E-8160-4859-A319-BBEC644E4488" colorSpace="pattern"/>
+                        <color key="tintColor" patternImage="7AB3A8EF-9C85-4518-A8D9-FFF5AC4EB27C" colorSpace="pattern"/>
                         <constraints>
                             <constraint firstItem="mDs-ka-qVP" firstAttribute="leading" secondItem="zFC-Ho-6MX" secondAttribute="leading" id="7gc-vz-A6o"/>
                             <constraint firstItem="mDs-ka-qVP" firstAttribute="trailing" secondItem="zFC-Ho-6MX" secondAttribute="trailing" id="81x-eb-Bhv"/>
@@ -135,56 +135,27 @@
             </objects>
             <point key="canvasLocation" x="26" y="282"/>
         </scene>
-        <!--Transp-->
-        <scene sceneID="LJW-QC-3GN">
+        <!--Opacy-->
+        <scene sceneID="m3D-cg-sUp">
             <objects>
-                <viewController id="gEQ-bp-PE7" customClass="Transp" sceneMemberID="viewController">
+                <viewController id="cAl-bm-WIy" customClass="Opacy" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="wfF-ST-BYk"/>
-                        <viewControllerLayoutGuide type="bottom" id="Br0-3k-scQ"/>
+                        <viewControllerLayoutGuide type="top" id="3me-gL-NGl"/>
+                        <viewControllerLayoutGuide type="bottom" id="6tI-YK-gUn"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="9cf-Sa-VGG">
+                    <view key="view" contentMode="scaleToFill" id="Le8-oI-Fes">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Amsterdam" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dtf-9G-wRE">
-                                <rect key="frame" x="107" y="48" width="187" height="27"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HDRcities20.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dph-9V-vZ2">
-                                <rect key="frame" x="40" y="201" width="335" height="260"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEB-41-Ya3">
-                                <rect key="frame" x="184" y="527" width="80" height="31"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
-                                <state key="normal" title="Next">
-                                    <color key="titleColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="4wc-2W-GLS">
-                                <rect key="frame" x="59" y="114" width="283" height="31"/>
-                            </slider>
-                        </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <connections>
-                        <outlet property="btnNxt" destination="mEB-41-Ya3" id="wdi-sV-KI8"/>
-                        <outlet property="imgCity" destination="dph-9V-vZ2" id="N5C-1u-Qbw"/>
-                        <outlet property="lblCity" destination="dtf-9G-wRE" id="rxU-IR-diQ"/>
-                        <outlet property="ld" destination="dtf-9G-wRE" id="U9E-VE-jpT"/>
-                        <outlet property="sldTransp" destination="4wc-2W-GLS" id="oML-9z-0Vn"/>
-                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wvU-ex-1Dg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yF0-7Q-yHu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="691" y="282"/>
+            <point key="canvasLocation" x="738" y="288"/>
         </scene>
     </scenes>
     <resources>
-        <image name="2782BC7E-8160-4859-A319-BBEC644E4488" width="256" height="256">
+        <image name="7AB3A8EF-9C85-4518-A8D9-FFF5AC4EB27C" width="256" height="256">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGTk9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QEQcI
 ExQZHh8nKzIzNDw/QkhLVSRudWxs1QkKCwwNDg8QERJWTlNTaXplViRjbGFzc1xOU0ltYWdlRmxhZ3NW
@@ -4630,7 +4601,6 @@ DyYABA8uAAQPMQAEDzYABA9FAAQPSQAED1AABA9YAAQPZQAED2oABA9sAAQPbgAED3MABA97AAQPfgAE
 D4MABA+LAAQPjgAED6AABA+jAAQPqAAAAAAAAAQBAAAAAAAAAFIAAAAAAAAAAAAAAAAABA+qA
 </mutableData>
         </image>
-        <image name="HDRcities20.jpg" width="580" height="407"/>
         <image name="age0.jpg" width="462" height="316"/>
     </resources>
 </document>
