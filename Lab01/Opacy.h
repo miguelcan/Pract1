@@ -18,4 +18,6 @@
 
 @property (strong, nonatomic) IBOutlet UIButton *btnNxt;
 
+- (IBAction)evtSld:(UISlider *)sender;
+
 @end

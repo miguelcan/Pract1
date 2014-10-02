@@ -34,4 +34,7 @@
 }
 */
 
+- (IBAction)evtSld:(UISlider *)sender {
+    self.imgCity.alpha =1-(self.sldOpac.value/100);
+}
 @end
