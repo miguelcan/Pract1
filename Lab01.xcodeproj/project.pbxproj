@@ -29,6 +29,7 @@
 		279CFDB519D7F6750060E460 /* age12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 279CFDA619D7F6750060E460 /* age12.jpg */; };
 		279CFDB619D7F6750060E460 /* age13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 279CFDA719D7F6750060E460 /* age13.jpg */; };
 		279CFDB719D7F6750060E460 /* age14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 279CFDA819D7F6750060E460 /* age14.jpg */; };
+		279D147519DDC585008067D3 /* Transp.m in Sources */ = {isa = PBXBuildFile; fileRef = 279D147419DDC585008067D3 /* Transp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,8 @@
 		279CFDA619D7F6750060E460 /* age12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = age12.jpg; path = "../../../Downloads/lotte-2/age12.jpg"; sourceTree = "<group>"; };
 		279CFDA719D7F6750060E460 /* age13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = age13.jpg; path = "../../../Downloads/lotte-2/age13.jpg"; sourceTree = "<group>"; };
 		279CFDA819D7F6750060E460 /* age14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = age14.jpg; path = "../../../Downloads/lotte-2/age14.jpg"; sourceTree = "<group>"; };
+		279D147319DDC585008067D3 /* Transp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transp.h; path = ../Transp.h; sourceTree = "<group>"; };
+		279D147419DDC585008067D3 /* Transp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Transp.m; path = ../Transp.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				279CFD5C19D7E88F0060E460 /* ViewController.h */,
 				279CFD5D19D7E88F0060E460 /* ViewController.m */,
 				279CFD5F19D7E88F0060E460 /* Main.storyboard */,
+				279D147319DDC585008067D3 /* Transp.h */,
+				279D147419DDC585008067D3 /* Transp.m */,
 				279CFD6219D7E88F0060E460 /* Images.xcassets */,
 				279CFD6419D7E88F0060E460 /* LaunchScreen.xib */,
 				279CFD5519D7E88F0060E460 /* Supporting Files */,
@@ -290,6 +295,7 @@
 				279CFD5E19D7E88F0060E460 /* ViewController.m in Sources */,
 				279CFD5B19D7E88F0060E460 /* AppDelegate.m in Sources */,
 				279CFD5819D7E88F0060E460 /* main.m in Sources */,
+				279D147519DDC585008067D3 /* Transp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
