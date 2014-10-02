@@ -99,7 +99,7 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                        <color key="tintColor" patternImage="326E6639-2C1A-49E2-A32B-122057E89E33" colorSpace="pattern"/>
+                        <color key="tintColor" patternImage="1C615809-0BAE-486F-AEA6-39F9E64CDC10" colorSpace="pattern"/>
                         <constraints>
                             <constraint firstItem="mDs-ka-qVP" firstAttribute="leading" secondItem="zFC-Ho-6MX" secondAttribute="leading" id="7gc-vz-A6o"/>
                             <constraint firstItem="mDs-ka-qVP" firstAttribute="trailing" secondItem="zFC-Ho-6MX" secondAttribute="trailing" id="81x-eb-Bhv"/>
@@ -205,14 +205,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VaM-Sm-lwt">
-                                <rect key="frame" x="134" y="463" width="90" height="30"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
-                                <state key="normal" title="Next">
-                                    <color key="titleColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fB-qh-5cu">
                                 <rect key="frame" x="60" y="353" width="90" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -233,6 +225,17 @@
                                     <action selector="evtStop:" destination="k27-yi-DA3" eventType="touchUpInside" id="4HP-RA-Scu"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VaM-Sm-lwt">
+                                <rect key="frame" x="134" y="463" width="90" height="30"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hQx-KB-H3W" kind="show" id="WJo-H9-WRz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -241,9 +244,27 @@
             </objects>
             <point key="canvasLocation" x="1390" y="288"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="oA0-oK-G6X">
+            <objects>
+                <viewController id="hQx-KB-H3W" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qCk-K9-seW"/>
+                        <viewControllerLayoutGuide type="bottom" id="oox-NU-NFF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RgK-Ll-ffm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KfN-VA-4bk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2130" y="288"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="326E6639-2C1A-49E2-A32B-122057E89E33" width="256" height="256">
+        <image name="1C615809-0BAE-486F-AEA6-39F9E64CDC10" width="256" height="256">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGTk9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QEQcI
 ExQZHh8nKzIzNDw/QkhLVSRudWxs1QkKCwwNDg8QERJWTlNTaXplViRjbGFzc1xOU0ltYWdlRmxhZ3NW
