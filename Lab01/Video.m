@@ -13,6 +13,7 @@
 
 @implementation Video
 @synthesize moviePlayer;
+MPMoviePlayerController *mp;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -49,12 +50,18 @@
     moviePlayer.shouldAutoplay = YES;
     [self.view addSubview:moviePlayer.view];
     
-    MPMoviePlayerController *mp = moviePlayer;
+    mp = moviePlayer;
+
     CGRect playerFrame = CGRectMake(60, 100, 290, 200);
     [mp.view setFrame:playerFrame];
     [mp prepareToPlay];
     //[[moviePlayer ] play];
     //[moviePlayer setFullscreen:YES animated:YES];
+}
+
+- (IBAction)evtStop:(id)sender {
+    
+    [mp stop];
 }
 
 - (void) moviePlayBackDidFinish:(NSNotification*)notification {

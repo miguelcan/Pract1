@@ -20,4 +20,6 @@
 
 - (IBAction)evtPlay:(id)sender;
 
+- (IBAction)evtStop:(id)sender;
+
 @end
