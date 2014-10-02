@@ -11,6 +11,9 @@
 		272A037C19DDE8C800A60FCD /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 272A037B19DDE8C800A60FCD /* Video.m */; };
 		272A038119DDF8C000A60FCD /* gol.mov in Resources */ = {isa = PBXBuildFile; fileRef = 272A038019DDF8C000A60FCD /* gol.mov */; };
 		272A038619DDFDC800A60FCD /* gol.mov in Resources */ = {isa = PBXBuildFile; fileRef = 272A038519DDFDC800A60FCD /* gol.mov */; };
+		272A038919DE0E9A00A60FCD /* campeonisimo01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 272A038719DE0E9A00A60FCD /* campeonisimo01.jpg */; };
+		272A038A19DE0E9A00A60FCD /* images-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 272A038819DE0E9A00A60FCD /* images-2.jpeg */; };
+		272A038D19DE0FDC00A60FCD /* Segm.m in Sources */ = {isa = PBXBuildFile; fileRef = 272A038C19DE0FDC00A60FCD /* Segm.m */; };
 		279CFD5819D7E88F0060E460 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 279CFD5719D7E88F0060E460 /* main.m */; };
 		279CFD5B19D7E88F0060E460 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 279CFD5A19D7E88F0060E460 /* AppDelegate.m */; };
 		279CFD5E19D7E88F0060E460 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 279CFD5D19D7E88F0060E460 /* ViewController.m */; };
@@ -54,6 +57,10 @@
 		272A038019DDF8C000A60FCD /* gol.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = gol.mov; path = LAB01/Lab01/gol.mov; sourceTree = "<group>"; };
 		272A038319DDFD3A00A60FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Lab01/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		272A038519DDFDC800A60FCD /* gol.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = gol.mov; sourceTree = "<group>"; };
+		272A038719DE0E9A00A60FCD /* campeonisimo01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = campeonisimo01.jpg; sourceTree = "<group>"; };
+		272A038819DE0E9A00A60FCD /* images-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-2.jpeg"; sourceTree = "<group>"; };
+		272A038B19DE0FDC00A60FCD /* Segm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Segm.h; sourceTree = "<group>"; };
+		272A038C19DE0FDC00A60FCD /* Segm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Segm.m; sourceTree = "<group>"; };
 		279CFD5219D7E88F0060E460 /* Lab01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		279CFD5619D7E88F0060E460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		279CFD5719D7E88F0060E460 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -133,6 +140,8 @@
 				272A037B19DDE8C800A60FCD /* Video.m */,
 				272A037819DDDCBC00A60FCD /* Opacy.m */,
 				279CFD5D19D7E88F0060E460 /* ViewController.m */,
+				272A038B19DE0FDC00A60FCD /* Segm.h */,
+				272A038C19DE0FDC00A60FCD /* Segm.m */,
 				279CFD5F19D7E88F0060E460 /* Main.storyboard */,
 				279CFD6219D7E88F0060E460 /* Images.xcassets */,
 				279CFD6419D7E88F0060E460 /* LaunchScreen.xib */,
@@ -174,6 +183,8 @@
 				279D147619DDCB91008067D3 /* HDRcities20.jpg */,
 				279CFD9A19D7F6750060E460 /* age0.jpg */,
 				279CFD9B19D7F6750060E460 /* age1.jpg */,
+				272A038719DE0E9A00A60FCD /* campeonisimo01.jpg */,
+				272A038819DE0E9A00A60FCD /* images-2.jpeg */,
 				272A038019DDF8C000A60FCD /* gol.mov */,
 				272A038519DDFDC800A60FCD /* gol.mov */,
 				279CFD9C19D7F6750060E460 /* age2.jpg */,
@@ -274,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				272A038619DDFDC800A60FCD /* gol.mov in Resources */,
+				272A038A19DE0E9A00A60FCD /* images-2.jpeg in Resources */,
 				279CFDB319D7F6750060E460 /* age10.jpg in Resources */,
 				279CFDB019D7F6750060E460 /* age7.jpg in Resources */,
 				279CFDB719D7F6750060E460 /* age14.jpg in Resources */,
@@ -281,6 +293,7 @@
 				279CFDA919D7F6750060E460 /* age0.jpg in Resources */,
 				279CFDAA19D7F6750060E460 /* age1.jpg in Resources */,
 				279CFDB619D7F6750060E460 /* age13.jpg in Resources */,
+				272A038919DE0E9A00A60FCD /* campeonisimo01.jpg in Resources */,
 				279CFDB119D7F6750060E460 /* age8.jpg in Resources */,
 				279CFD6119D7E88F0060E460 /* Main.storyboard in Resources */,
 				272A038119DDF8C000A60FCD /* gol.mov in Resources */,
@@ -314,6 +327,7 @@
 				279CFD5E19D7E88F0060E460 /* ViewController.m in Sources */,
 				279CFD5B19D7E88F0060E460 /* AppDelegate.m in Sources */,
 				272A037919DDDCBC00A60FCD /* Opacy.m in Sources */,
+				272A038D19DE0FDC00A60FCD /* Segm.m in Sources */,
 				272A037C19DDE8C800A60FCD /* Video.m in Sources */,
 				279CFD5819D7E88F0060E460 /* main.m in Sources */,
 			);

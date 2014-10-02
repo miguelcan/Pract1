@@ -99,7 +99,7 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                        <color key="tintColor" patternImage="1C615809-0BAE-486F-AEA6-39F9E64CDC10" colorSpace="pattern"/>
+                        <color key="tintColor" patternImage="539C6466-B8E1-42DC-BE42-BF5190CAA224" colorSpace="pattern"/>
                         <constraints>
                             <constraint firstItem="mDs-ka-qVP" firstAttribute="leading" secondItem="zFC-Ho-6MX" secondAttribute="leading" id="7gc-vz-A6o"/>
                             <constraint firstItem="mDs-ka-qVP" firstAttribute="trailing" secondItem="zFC-Ho-6MX" secondAttribute="trailing" id="81x-eb-Bhv"/>
@@ -199,12 +199,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Video" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ra-6c-okf">
-                                <rect key="frame" x="153" y="40" width="104" height="39"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VaM-Sm-lwt">
+                                <rect key="frame" x="134" y="463" width="90" height="30"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hQx-KB-H3W" kind="show" id="WJo-H9-WRz"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fB-qh-5cu">
                                 <rect key="frame" x="60" y="353" width="90" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -225,17 +230,12 @@
                                     <action selector="evtStop:" destination="k27-yi-DA3" eventType="touchUpInside" id="4HP-RA-Scu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VaM-Sm-lwt">
-                                <rect key="frame" x="134" y="463" width="90" height="30"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
-                                <state key="normal" title="Next">
-                                    <color key="titleColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="hQx-KB-H3W" kind="show" id="WJo-H9-WRz"/>
-                                </connections>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Video" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ra-6c-okf">
+                                <rect key="frame" x="154" y="40" width="104" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -244,10 +244,10 @@
             </objects>
             <point key="canvasLocation" x="1390" y="288"/>
         </scene>
-        <!--View Controller-->
+        <!--Segm-->
         <scene sceneID="oA0-oK-G6X">
             <objects>
-                <viewController id="hQx-KB-H3W" sceneMemberID="viewController">
+                <viewController id="hQx-KB-H3W" customClass="Segm" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qCk-K9-seW"/>
                         <viewControllerLayoutGuide type="bottom" id="oox-NU-NFF"/>
@@ -255,8 +255,50 @@
                     <view key="view" contentMode="scaleToFill" id="RgK-Ll-ffm">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="gvG-47-HqK">
+                                <rect key="frame" x="116" y="40" width="200" height="29"/>
+                                <color key="backgroundColor" red="0.20000000298023224" green="0.20000000298023224" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
+                                <segments>
+                                    <segment title="Tecos"/>
+                                    <segment title="Necaxa"/>
+                                </segments>
+                                <connections>
+                                    <action selector="evtSegm:" destination="hQx-KB-H3W" eventType="valueChanged" id="Jq8-x1-rOG"/>
+                                </connections>
+                            </segmentedControl>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images-2.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="tNd-2h-sHI">
+                                <rect key="frame" x="64" y="122" width="295" height="183"/>
+                            </imageView>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="OQ6-7o-EVV">
+                                <rect key="frame" x="164" y="436" width="94" height="29"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="evtStep:" destination="hQx-KB-H3W" eventType="valueChanged" id="uqU-Ho-CVF"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4bq-c5-Jxa">
+                                <rect key="frame" x="190" y="407" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Goles" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scz-NC-ohO">
+                                <rect key="frame" x="173" y="368" width="102" height="21"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="imgTeam" destination="tNd-2h-sHI" id="WnB-EE-fBs"/>
+                        <outlet property="lblGoal" destination="4bq-c5-Jxa" id="Lcb-fh-0iA"/>
+                        <outlet property="segmTeam" destination="gvG-47-HqK" id="NzD-Dn-T9X"/>
+                        <outlet property="stpGoal" destination="OQ6-7o-EVV" id="tY1-la-DU1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KfN-VA-4bk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -264,7 +306,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="1C615809-0BAE-486F-AEA6-39F9E64CDC10" width="256" height="256">
+        <image name="539C6466-B8E1-42DC-BE42-BF5190CAA224" width="256" height="256">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGTk9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QEQcI
 ExQZHh8nKzIzNDw/QkhLVSRudWxs1QkKCwwNDg8QERJWTlNTaXplViRjbGFzc1xOU0ltYWdlRmxhZ3NW
@@ -4712,5 +4754,6 @@ D4MABA+LAAQPjgAED6AABA+jAAQPqAAAAAAAAAQBAAAAAAAAAFIAAAAAAAAAAAAAAAAABA+qA
         </image>
         <image name="HDRcities20.jpg" width="580" height="407"/>
         <image name="age0.jpg" width="462" height="316"/>
+        <image name="images-2.jpeg" width="257" height="196"/>
     </resources>
 </document>
