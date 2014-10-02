@@ -99,7 +99,7 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                        <color key="tintColor" patternImage="00E83450-EA3F-446C-AD50-8992E642E23D" colorSpace="pattern"/>
+                        <color key="tintColor" patternImage="45D2BC74-8F27-41BD-8E2A-CC047470B025" colorSpace="pattern"/>
                         <constraints>
                             <constraint firstItem="mDs-ka-qVP" firstAttribute="leading" secondItem="zFC-Ho-6MX" secondAttribute="leading" id="7gc-vz-A6o"/>
                             <constraint firstItem="mDs-ka-qVP" firstAttribute="trailing" secondItem="zFC-Ho-6MX" secondAttribute="trailing" id="81x-eb-Bhv"/>
@@ -170,6 +170,12 @@
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="btnNxt" destination="Cj5-Jd-ARZ" id="Wck-Vo-hZw"/>
+                        <outlet property="imgCity" destination="bwo-RQ-ojy" id="FZK-uR-SFk"/>
+                        <outlet property="lblCity" destination="MvB-cX-Qtl" id="9kr-Fo-JUk"/>
+                        <outlet property="sldOpac" destination="PFU-2J-PMN" id="uct-YX-H6O"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yF0-7Q-yHu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -177,7 +183,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="00E83450-EA3F-446C-AD50-8992E642E23D" width="256" height="256">
+        <image name="45D2BC74-8F27-41BD-8E2A-CC047470B025" width="256" height="256">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGTk9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QEQcI
 ExQZHh8nKzIzNDw/QkhLVSRudWxs1QkKCwwNDg8QERJWTlNTaXplViRjbGFzc1xOU0ltYWdlRmxhZ3NW

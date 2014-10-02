@@ -10,4 +10,12 @@
 
 @interface Opacy : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *lblCity;
+
+@property (strong, nonatomic) IBOutlet UISlider *sldOpac;
+
+@property (strong, nonatomic) IBOutlet UIImageView *imgCity;
+
+@property (strong, nonatomic) IBOutlet UIButton *btnNxt;
+
 @end
