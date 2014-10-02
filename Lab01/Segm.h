@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+extern int tecos;
+extern int necaxa;
+
 @interface Segm : UIViewController
 
 @property (strong, nonatomic) IBOutlet UISegmentedControl *segmTeam;

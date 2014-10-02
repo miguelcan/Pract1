@@ -13,6 +13,8 @@
 @end
 
 @implementation Segm
+int tecos = 0;
+int necaxa = 0;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -35,7 +37,31 @@
 */
 
 - (IBAction)evtSegm:(id)sender {
+    switch (self.segmTeam.selectedSegmentIndex) {
+        case 0:
+            self.imgTeam.image = [UIImage imageNamed:@"images-2.jpeg"];
+            self.lblGoal.text = [NSString stringWithFormat:@"%d",tecos];
+            break;
+        case 1:
+            self.imgTeam.image = [UIImage imageNamed:@"campeonisimo01.jpg"];
+            self.lblGoal.text = [NSString stringWithFormat:@"%d",necaxa];
+            break;
+        default:
+            break;
+    }
 }
+
 - (IBAction)evtStep:(id)sender {
+    self.lblGoal.text = [NSString stringWithFormat:@"%d",lroundf(self.stpGoal.value)];
+    switch (self.segmTeam.selectedSegmentIndex) {
+        case 0:
+            tecos = lroundf(self.stpGoal.value);
+            break;
+        case 1:
+            necaxa = lroundf(self.stpGoal.value);
+            break;
+        default:
+            break;
+    }
 }
 @end
