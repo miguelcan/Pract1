@@ -99,7 +99,7 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                        <color key="tintColor" patternImage="B51CB7E3-09FE-4AD5-8F2D-59FD291CE026" colorSpace="pattern"/>
+                        <color key="tintColor" patternImage="60DDAE5B-9B13-4AF1-A79A-2EF1F594BB70" colorSpace="pattern"/>
                         <constraints>
                             <constraint firstItem="mDs-ka-qVP" firstAttribute="leading" secondItem="zFC-Ho-6MX" secondAttribute="leading" id="7gc-vz-A6o"/>
                             <constraint firstItem="mDs-ka-qVP" firstAttribute="trailing" secondItem="zFC-Ho-6MX" secondAttribute="trailing" id="81x-eb-Bhv"/>
@@ -153,12 +153,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="PFU-2J-PMN">
-                                <rect key="frame" x="73" y="114" width="217" height="31"/>
-                                <connections>
-                                    <action selector="evtSld:" destination="cAl-bm-WIy" eventType="valueChanged" id="5Ma-dm-jzY"/>
-                                </connections>
-                            </slider>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HDRcities20.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="bwo-RQ-ojy">
                                 <rect key="frame" x="44" y="188" width="275" height="177"/>
                             </imageView>
@@ -173,6 +167,13 @@
                                     <segue destination="k27-yi-DA3" kind="show" id="gKG-8L-5OT"/>
                                 </connections>
                             </button>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="PFU-2J-PMN">
+                                <rect key="frame" x="73" y="114" width="217" height="31"/>
+                                <color key="thumbTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="evtSld:" destination="cAl-bm-WIy" eventType="valueChanged" id="5Ma-dm-jzY"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -239,6 +240,11 @@
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="btnNxt" destination="VaM-Sm-lwt" id="lZD-1O-uYe"/>
+                        <outlet property="btnPlay" destination="4fB-qh-5cu" id="M5c-6W-35F"/>
+                        <outlet property="btnStop" destination="hT5-4z-lOb" id="j2p-ai-z9p"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="au2-c4-iCP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -306,7 +312,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="B51CB7E3-09FE-4AD5-8F2D-59FD291CE026" width="256" height="256">
+        <image name="60DDAE5B-9B13-4AF1-A79A-2EF1F594BB70" width="256" height="256">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGTk9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QEQcI
 ExQZHh8nKzIzNDw/QkhLVSRudWxs1QkKCwwNDg8QERJWTlNTaXplViRjbGFzc1xOU0ltYWdlRmxhZ3NW

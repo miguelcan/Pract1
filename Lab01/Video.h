@@ -18,6 +18,12 @@
 
 @property (strong,nonatomic) MPMoviePlayerController *moviePlayer;
 
+@property (strong, nonatomic) IBOutlet UIButton *btnPlay;
+
+@property (strong, nonatomic) IBOutlet UIButton *btnStop;
+
+@property (strong, nonatomic) IBOutlet UIButton *btnNxt;
+
 - (IBAction)evtPlay:(id)sender;
 
 - (IBAction)evtStop:(id)sender;

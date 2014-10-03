@@ -19,6 +19,14 @@ int necaxa = 0;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.imgTeam.layer.cornerRadius = 5.0;
+    self.imgTeam.layer.masksToBounds = YES;
+    self.imgTeam.layer.borderColor = [UIColor whiteColor].CGColor;
+    self.imgTeam.layer.borderWidth = 1.0;
+    self.segmTeam.layer.cornerRadius = 5.0;
+    self.segmTeam.layer.masksToBounds = YES;
+    self.stpGoal.layer.cornerRadius = 5.0;
+    self.stpGoal.layer.masksToBounds = YES;
 }
 
 - (void)didReceiveMemoryWarning {

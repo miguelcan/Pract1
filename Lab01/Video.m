@@ -18,6 +18,12 @@ MPMoviePlayerController *mp;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.btnPlay.layer.cornerRadius = 5.0;
+    self.btnPlay.layer.masksToBounds = YES;
+    self.btnStop.layer.cornerRadius = 5.0;
+    self.btnStop.layer.masksToBounds = YES;
+    self.btnNxt.layer.cornerRadius = 5.0;
+    self.btnNxt.layer.masksToBounds = YES;
 }
 
 - (void)didReceiveMemoryWarning {

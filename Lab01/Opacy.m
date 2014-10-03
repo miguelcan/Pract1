@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.imgCity.layer.cornerRadius = 5.0;
+    self.imgCity.layer.masksToBounds = YES;
+    self.imgCity.layer.borderColor = [UIColor whiteColor].CGColor;
+    self.imgCity.layer.borderWidth = 1.0;
+    self.btnNxt.layer.cornerRadius = 5.0;
+    self.btnNxt.layer.masksToBounds = YES;
 }
 
 - (void)didReceiveMemoryWarning {

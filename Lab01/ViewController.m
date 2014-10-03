@@ -24,6 +24,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.ImgFace.layer.cornerRadius = 5.0;
+    self.ImgFace.layer.masksToBounds = YES;
+    self.ImgFace.layer.borderColor = [UIColor whiteColor].CGColor;
+    self.ImgFace.layer.borderWidth = 1.0;
+    self.BtnColor.layer.cornerRadius = 5.0;
+    self.BtnColor.layer.masksToBounds = YES;
+    self.BtnBk.layer.cornerRadius = 5.0;
+    self.BtnBk.layer.masksToBounds = YES;
+    self.BtnImg.layer.cornerRadius = 5.0;
+    self.BtnImg.layer.masksToBounds = YES;
+    self.BtnNxt.layer.cornerRadius = 5.0;
+    self.BtnNxt.layer.masksToBounds = YES;
+    self.lblName.layer.cornerRadius = 5.0;
+    self.lblName.layer.masksToBounds = YES;
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
